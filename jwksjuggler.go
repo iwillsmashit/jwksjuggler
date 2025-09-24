@@ -127,11 +127,11 @@ func main() {
 }
 
 func showHelpText() {
-	fmt.Println("JWKS Private Key Exporter")
+	fmt.Println("JWKS Juggler : JWKS -> Private Key")
 	fmt.Println("========================")
 	fmt.Println()
 	fmt.Println("USAGE:")
-	fmt.Println("  jwks-export [OPTIONS]")
+	fmt.Println("  jwksjuggler [OPTIONS]")
 	fmt.Println()
 	fmt.Println("OPTIONS:")
 	fmt.Println("  -in <file>     Input JWKS file path (required for export)")
